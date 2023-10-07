@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    
+    <style>
+        .grid-3-column-text{
+            column-count: 3;
+            column-gap: 30px;
+            column-width: 200px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;   
+        }
+    </style>
+</head>
+<body>
+
+
+<!--INI HEADER-->
+<h1>Halo My Name is Dwi, I'm Web Designer!</h1>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Pariatur similique eveniet quis et nulla modi nobis sint ea corrupti 
+    dolore facilis ad magni voluptatem sapiente libero cum, est consequuntur recusandae!
+</p>
+
+
+<!-- INI MENU -->
+<ul>
+    <li><a href="#">Profil</a></li>
+    <li><a href="#">Biodata</a></li>
+    <li><a href="#">Riwayat Pendidikan</a></li>
+    <li><a href="#">Hobi</a></li>
+    <li><a href="#">Kontak</a></li>
+</ul>
+
+
+<!--INI HERO SECTION-->
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/XSHtWwejuAg?si=3lXqqWXF4fzSw2Bx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- <video controls width="50%">
+    <source src="https://www.w3schools.com/tags/movie.mp4"  type="video/mp4">
+</video> -->
+<!-- <img width="100%" src="assets/grab-qG6r2KPT4l4-unsplash.jpg" /> -->
+
+
+
+<!-- INI PROFIL SECTION -->
+<h2>Profil</h2>
+<div class="grid-3-column-text"> 
+    <p><b>Lorem</b> <i>ipsum dolor</i> sit<sup>TM</sup> amet <span style="color: red; font-size: 20px; font-weight: bold;">consectetur</span> adipisicing elit. <a href="#">Ratione optio harum</a> necessitatibus facilis odit voluptate asperiores alias praesentium molestiae illo, <em>blanditiis eius aliquam similique quasi</em> dolores nam? Harum, nulla ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio harum necessitatibus facilis odit voluptate asperiores alias praesentium molestiae illo, blanditiis eius aliquam similique quasi dolores nam? Harum, nulla ipsam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio harum necessitatibus facilis odit voluptate asperiores alias praesentium molestiae illo, blanditiis eius aliquam similique quasi dolores nam? Harum, nulla ipsam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio harum necessitatibus facilis odit voluptate asperiores alias praesentium molestiae illo, blanditiis eius aliquam similique quasi dolores nam? Harum, nulla ipsam.</p>
+</div>
+
+
+
+<!--SECTION HOBI-->
+<table>
+    <tr>
+        <th>No</th>
+        <th>Hobi</th>
+        <th>Makanan Favorit</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Bersepeda</td>
+        <td>Ayam Goreng</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Lari</td>
+        <td>Capcay</td>
+    </tr>
+</table>
+
+
+<!--CONTACT FORM-->
+<from>
+    <div class="form-group">
+        <label>Nama</label>
+        <input type="text" placeholder="Isikan dengan nama lengkap"/>
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="email perusahaan"/>
+    </div>
+
+    <div class="form-group">
+        <label>Company</label>
+        <input type="text" />
+    </div>
+
+    <div class="form-group">
+        <label>Pilih jadwal meeting</label>
+        <input type="date" />
+    </div>
+
+    <div class="form-group">
+        <label>Pilih Jenis Meeting</label>
+        <select>
+            <option>Online</option>
+            <option>Offline</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Pesan</label>
+        <textarea rows="5"></textarea>
+    </div>
+
+    <div class="form-group">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+    </div>
+
+    <br><br>
+
+    <div class="form-group">
+        <input type="radio" id="golang" name="fav_language_2" value="HTML">
+        <label for="golang">Golang</label><br>
+
+        <input type="radio" id="php" name="fav_language_2" value="CSS">
+        <label for="php">PHP</label><br>
+        
+        <input type="radio" id="ruby" name="fav_language_2" value="JavaScript">
+        <label for="ruby">Ruby</label>
+    </div>
+
+    <div class="form-group">
+        <button type="submit">SUBMIT</button>
+        <input type="button" value="SUBMIT"/> 
+    </div>
+</from>
+
+</body>
+</html>
