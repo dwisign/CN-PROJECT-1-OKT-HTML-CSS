@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .w-button {
+            color: #fff;
+            line-height: inherit;
+            cursor: pointer;
+            background-color: #3898ec;
+            border: 0;
+            border-radius: 0;
+            padding: 9px 15px;
+            text-decoration: none;
+            display: inline-block
+        }
+
+        .new-button {
+            border:1px solid var(--primary-dark-blue);
+            background-color:var(--primary-dark-blue);
+            color:#fff;
+            text-align:center;
+            border-radius:.5rem;
+            padding:.75rem 1.5rem
+        }
+
+        .new-button:hover {
+            background-color:var(--secondary-dark-green);
+            text-decoration:none;
+        }
+
+        .new-button.is-secondary.saas-custom {
+            color: #fff;
+            background-color: #fb8c00;
+            border-color: #fb8c00
+        }
+
+        .new-button.is-secondary.saas-custom:hover {
+            background-color: #ff7f41;
+        }
+
+        .btn-block{
+            width: 100%;
+        }
+
+        .btn-group-2-col{
+            display: flex;
+            flex-wrap: wrap;
+            background: #ddf8ff;
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+        .btn-item{
+            flex: 50%;
+            padding: 10px;
+        }
+        @media (max-width: 480px) {
+            .btn-item {
+                flex: 100%;
+            }
+        }
+        *{
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="btn-group-2-col">
+        <div class="btn-item">
+            <a href="https://kerja.kitalulus.com/id/lowongan/provinsi/dki-jakarta?utm_source=seo&utm_medium=web&utm_campaign=web_footer" class="new-button is-secondary saas-custom btn-block w-button">Loker Jakarta</a>
+        </div>
+        <div class="btn-item">
+            <a href="https://kerja.kitalulus.com/id/lowongan/kota/kota-surabaya?utm_source=seo&utm_medium=web&utm_campaign=web_footer" class="new-button is-secondary saas-custom btn-block w-button">Loker Surabaya</a>
+        </div>
+        <div class="btn-item">   
+            <a href="https://kerja.kitalulus.com/id/lowongan/kota/kota-bandung?utm_source=seo&utm_medium=web&utm_campaign=web_footer" class="new-button is-secondary saas-custom btn-block w-button">Loker Bandung</a>
+        </div>
+        <div class="btn-item">   
+            <a href="https://kerja.kitalulus.com/id/lowongan/kota/kota-medan?utm_source=seo&utm_medium=web&utm_campaign=web_footer" class="new-button is-secondary saas-custom btn-block w-button">Loker Medan</a>
+        </div>  
+    </div>
+
+</body>
+</html>

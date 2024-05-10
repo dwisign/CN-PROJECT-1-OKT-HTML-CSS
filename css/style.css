@@ -1,0 +1,144 @@
+/*GLOBAL CSS*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px;   
+}
+
+input, textarea, select{
+    box-sizing: border-box;
+}
+.label-input{
+    display: block;
+}
+.form-input{
+    width: 100%;
+    padding: 10px; 
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 10px 15px;
+    opacity: 0.8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 1;
+}
+.btn-primary{
+    background: darkblue;
+    border: 1px solid darkblue;
+    color: white; 
+}
+.btn-success{
+    background: green;
+    border: 1px solid green;
+    color: white; 
+}
+.btn-info{
+    background: lightskyblue;
+    border: 1px solid lightskyblue;
+    color: blue; 
+}
+.btn-full{
+    width: 100%;
+}
+
+/*END GLOBAL CSS*/
+
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.grid-3-column-text{
+    column-count: 3;
+    column-gap: 30px;
+    column-width: 200px;
+}
+
+.section-header{
+    background: darkblue;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px 40px 0px; 
+}
+
+.section-menu{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    margin-bottom: 80px;
+}
+
+.section-menu li{
+    list-style: none;
+}
+
+.section-menu ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 800px;
+}
+
+.section-menu li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    background: darkblue;
+    opacity: 0.8;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.section-menu li a:hover{
+    opacity: 1;
+}
+
+.section-profile{
+    padding: 50px 0px;
+}
+
+.section-hobi{
+    padding: 50px 0px;
+}
+
+/*RESPONSIVE MEDIA QUERY*/
+@media screen and (max-width: 1300px) {
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .section-header{
+        background: darkgreen;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+
+}
+
